@@ -1644,7 +1644,7 @@ public class MavenCli
         if ( commandLine.hasOption( CLIManager.SET_SYSTEM_PROPERTY ) )
         {
             String[] defStrs = commandLine.getOptionValues( CLIManager.SET_SYSTEM_PROPERTY );
-            
+
             if ( defStrs != null )
             {
                 for ( String defStr : defStrs )
